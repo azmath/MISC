@@ -19,3 +19,5 @@ DELIMITER ;
 ALTER TABLE `issues` CHANGE `date_updated` `date_updated` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 
 ALTER TABLE `issues` ADD `date_closed` DATE;
+
+https://dbfiddle.uk/?rdbms=mariadb_10.6
