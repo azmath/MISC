@@ -13,9 +13,9 @@ from email.mime.text import MIMEText
 from email.headerregistry import Address
 from email.utils import make_msgid
 
-emailfrom = "donotreply@cbd.ae"
-#emailto = "mohammed.shaik@cbd.ae"
-ccto = "mohammed.shaik@cbd.ae"
+emailfrom = "donotreply@domain1.ae"
+#emailto = "qwerk@domain1.ae"
+ccto = "asdf@domain1.ae"
 username = ""
 password = ""
 fileToSend = ""
@@ -71,7 +71,7 @@ for attachmentname in attachmentslist:
     attachment.add_header("Content-Disposition", "attachment", filename=fileToSend)
     msg.attach(attachment)
 
-    server = smtplib.SMTP("smtprelay.cbd.dev:25")
+    server = smtplib.SMTP("smtprelay.domain.dev:25")
     server.set_debuglevel(True)
     server.starttls()
     #server.login(username,password)
