@@ -46,7 +46,7 @@ Cheers,
         #s = smtplib.SMTP("smtprxxxelay.xxxxx.dev:2225")
         #s.connect(host=SMTP_SERVER)
         #s.sendmail(msg['From'], msg['To'], msg.as_string())
-        s.sendmail('rinu@cbd.ae', maillist, msg.as_string())
+        s.sendmail('rinuuuu@domain.ae', maillist, msg.as_string())
         print ("done!")
         s.close()
 
