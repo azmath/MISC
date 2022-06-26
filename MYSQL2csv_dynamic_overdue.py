@@ -38,7 +38,7 @@ def main():
     for row in data :
         print (row[0])
         name = row[0]
-       # query = "Select * from issues where app_support_contact ='subha@c.com'"
+       # query = "Select * from issues where app_support_contact ='email1234@domain.com'"
         query = "Select * from issues where app_support_contact = '" + name +"'" + "and status ='open' AND target_date <=curdate() "
         cursor.execute(query)
         issues=cursor.fetchall()
