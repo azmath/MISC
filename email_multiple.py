@@ -13,9 +13,9 @@ from email.mime.text import MIMEText
 from email.headerregistry import Address
 from email.utils import make_msgid
 
-emailfrom = 'donotreply@cbd.ae'
-emailto = ['mohammed.shaik@abc.ae', 'rinu@abc.ae']
-ccto = ['mohammed.shaik@abc.ae','kareem@abc.ae']
+emailfrom = 'donotreply@domain1.ae'
+emailto = ['email1@domain1.ae', 'email2@domain.ae']
+ccto = ['email3@domain.ae','email4@domain.ae']
 username = ""
 password = ""
 fileToSend = ""
@@ -53,7 +53,7 @@ The email has been sent for:
         4. Live assessments and risk assessments
         
 **please open the attachment with Excel for clear view
-For any queries or clarifications contact Technology risk mohammed.shaik@cbd.ae or husam.tariq@cbd.ae"
+For any queries or clarifications contact Technology risk email7@domain1.ae or email5@doamin1.ae"
 """
 part1 = MIMEText(text, 'plain')
 msg.attach(part1)
