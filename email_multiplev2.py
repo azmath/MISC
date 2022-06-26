@@ -43,7 +43,7 @@ The email has been sent for:
         4. Live assessments and risk assessments
         
 **please open the attachment with Excel for clear view
-For any queries or clarifications contact Technology risk mohammed.shaik@cbd.ae or husam.tariq@cbd.ae"
+For any queries or clarifications contact Technology risk email8@doamin1.ae"
 """
 part1 = MIMEText(text, 'plain')
 msg.attach(part1)
@@ -59,8 +59,8 @@ fp.close()
 
 attachment.add_header("Content-Disposition", "attachment", filename=fileToSend)
 emailfrom = 'donotreply@cbd.ae'
-emailto = ['mohammed.shaik@abc.ae', '345@abc.ae']
-ccto = ['mohammed.shaik@abc.ae', '123@abc.ae']
+emailto = ['123@abc.ae', '345@abc.ae']
+ccto = ['asdf@abc.ae', '123@abc.ae']
 username = ""
 password = ""
 msg["From"] = emailfrom
