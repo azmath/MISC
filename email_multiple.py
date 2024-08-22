@@ -43,7 +43,7 @@ text = """
 
 Test email
 
-This is an automated email from Technology Risk, please find the attached list of open security findings 
+This is an automated email from {Team}, please find the attached list of open security findings 
 
 The attachment in this email provides the list of open findings that are being tracked by Technology risk department, 
 The email has been sent for:
